@@ -1,0 +1,25 @@
+# แก้ให้เป็นแบบนี้ (ใช้ Path เต็มหรือ Path สัมพัทธ์)
+path: C:\Users\FEWIT\Desktop\AI Detaction
+train: 
+  - chicken/train/images
+  - people/train/images
+  - cat/train/images
+  - dog/train/images
+  - rat/train/images
+  - snake/train/images
+val: 
+  - chicken/valid/images
+  - people/valid/images
+  - cat/valid/images
+  - dog/valid/images
+  - rat/valid/images
+  - snake/valid/images
+
+nc: 6
+names:
+  0: chicken
+  1: people
+  2: cat
+  3: dog
+  4: rat
+  5: snake
